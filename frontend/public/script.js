@@ -183,11 +183,6 @@ const Router = {
                                 <li><strong>Detection:</strong> Identifies specific nutrient deficiencies (N, P, K)</li>
                                 <li><strong>Recommendations:</strong> Provides targeted treatment recommendations</li>
                             </ol>
-                            <div style="margin-top: 1.5rem;">
-                                <a href="/prediction" class="btn btn-primary" data-route="/prediction">
-                                    Try Prediction Now →
-                                </a>
-                            </div>
                         </div>
                     </section>
 
@@ -293,10 +288,9 @@ const Router = {
 
     getTeamPageHTML() {
         const members = [
-            { name: 'Supriya Menta', dept: 'Web Developer', imgSrc: 'Team/supriya.jpg', linkedin: 'http://linkedin.com/in/supriya-menta-09507a260', github: 'http://github.com/supriya-menta' },
-            { name: 'Nikhath', dept: 'ML Engineer', imgSrc: 'Team/nikhath-profile.jpg', linkedin: 'https://www.linkedin.com/in/mirza-nikhath-fathima-395a3a25b/', github: 'https://github.com/MirzaNikhathFathima' },
-            { name: 'Rohitha', dept: 'Full Stack Developer', imgSrc: 'Team/rohitha.jpg', linkedin: 'https://www.linkedin.com/in/rohitha-konasani-5a08a6278/', github: 'https://github.com/rohitha2006' },
-            { name: 'Charan', dept: 'UI/UX Designer', imgSrc: 'Team/charan.jpg', linkedin: 'http://linkedin.com/in/nallagatla-sricharan', github: 'https://github.com/nallagatl' }
+            { name: 'SHAIK SAMEER AHAMMAD', dept: 'Web Developer', imgSrc: 'Team/SHAIK SAMEER AHAMMAD.jpeg', linkedin: 'http://linkedin.com/in/supriya-menta-09507a260', github: 'http://github.com/supriya-menta' },
+            { name: 'S Kasi Viswanath Reddy', dept: 'ML Engineer', imgSrc: 'Team/S Kasi Viswanath Reddy.jpeg', linkedin: 'https://www.linkedin.com/in/mirza-nikhath-fathima-395a3a25b/', github: 'https://github.com/MirzaNikhathFathima' },
+            { name: 'Mohammad Abdul Razaq', dept: 'Full Stack Developer', imgSrc: 'Team/Mohammad Abdul Razaq.jpeg', linkedin: 'https://www.linkedin.com/in/rohitha-konasani-5a08a6278/', github: 'https://github.com/rohitha2006' },
         ];
 
         return `
